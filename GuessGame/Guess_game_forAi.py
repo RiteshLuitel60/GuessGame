@@ -3,6 +3,8 @@ import os
 
 os.system("cls")
 
+# os is imported to avoid unnecessary lines while running the code in vs code Terminal.
+
 def computerGuess():
     
     # high is the uppeer limit of the number for computer to guess
@@ -24,8 +26,8 @@ def computerGuess():
         computer_guess = random.randint(low, high)
         
         guess_chance += 1           
-            
-    
+        
+        # useless line of code line 31 and 32    
         # elif secret_number > high:
         #     print("Error! your number is greater than the maximum value. ")    
     
