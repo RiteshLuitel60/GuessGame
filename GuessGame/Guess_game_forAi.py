@@ -7,7 +7,7 @@ os.system("cls")
 
 def computerGuess():
     
-    # high is the uppeer limit of the number for computer to guess
+    # high is the upper limit of the number for computer to guess
      
     high = int(input("Highest limit for computer to guess: "))
     
